@@ -63,7 +63,7 @@ Good luck on your preparation!!!
 ## Spark Architecture Components
 
 Candidates are expected to be familiar with the following architectural components and their relationship to each other:
-- Driver
+- Driver 
 - Executor
 - Cores/Slots/Threads
 - Partitions
