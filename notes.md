@@ -1,9 +1,8 @@
-# SparkHacks
-
 ---
-title:  "CRT020 - Databricks Certified Associate Developer for Apache Spark 2.4 certification exam Feedback & Tips!"
+title:  "CRT020 Certification Feedback & Tips!"
+excerpt: "In this post I'm sharing my feedback and some preparation tips on the CRT020 - Databricks Certified Associate Developer for Apache Spark 2.4 certification exam I took recently."
+classes: wide
 categories: [certifications]
-
 tags: [crt020, databricks, spark]
 ---
 
