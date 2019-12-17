@@ -64,7 +64,9 @@ Good luck on your preparation!!!
 
 Candidates are expected to be familiar with the following architectural components and their relationship to each other:
 - Driver 
+Driver is a JVM process ,which controls the execution of Spark application and maintains all the state of a spark cluter.It interfaces with the Cluster manager to actually get physical resources and launch executors.
 - Executor
+Executors are the processes that perform the tasks assigned by the Driver and report back the state and result data set.
 - Cores/Slots/Threads
 - Partitions
 
