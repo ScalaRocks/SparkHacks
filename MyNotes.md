@@ -73,15 +73,16 @@ Executors are the processes that perform the tasks assigned by the Driver and re
 ## Spark Execution
 
 Candidates are expected to be familiar with Spark’s execution model and the breakdown between the different elements:
-- Jobs
-- Stages 
+- Jobs  Actions create Job and return results.Each Job breaks down to series of Stages.
+- Stages Represent groups of tasks( transformations) that can be executed together to compute the same operations on multiple machine.Engine Starts a new Stage after every shuffle operation.Spark Engine keeps track of the order of stages in order to compute the final result.
 - Tasks
 
 ## Spark Concepts
 
 Candidates are expected to be familiar with the following concepts:
 - Caching
-- Shuffling
+- Shuffling Represents repartitioning of data e.g Sorting a data frame,Aggregating data that was loaded from a file by key.It requires sending records with the same key to the same node.
+
 - Partitioning
 - Wide vs. Narrow Transformations
 - DataFrame Transformations vs. Actions vs. Operations
