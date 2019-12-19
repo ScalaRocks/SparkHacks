@@ -75,7 +75,8 @@ Executors are the processes that perform the tasks assigned by the Driver and re
 Candidates are expected to be familiar with Spark’s execution model and the breakdown between the different elements:
 - Jobs  Actions create Job and return results.Each Job breaks down to series of Stages.
 - Stages Represent groups of tasks( transformations) that can be executed together to compute the same operations on multiple machine.Engine Starts a new Stage after every shuffle operation.Spark Engine keeps track of the order of stages in order to compute the final result.
-- Tasks
+- Tasks combination of blocks of data and a set of transformations that will run on a single executor. A task usually corresponds to one partition. 
+```Spark.conf.set("spark.sql.shuffle.partitions",50) -- default 200 ```
 
 ## Spark Concepts
 
